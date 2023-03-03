@@ -4,7 +4,7 @@ import './App.css';
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
+      {/* <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
           This has been changed v2
@@ -17,7 +17,9 @@ function App() {
         >
           Learn React
         </a>
-      </header>
+      </header> */}
+
+      <h1 className='text-3xl font-bold underline'>This is a test of the tailwind framework</h1>
     </div>
   );
 }
