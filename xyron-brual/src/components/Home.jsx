@@ -6,7 +6,7 @@ export const Home = () => {
   return (
     <div
       name="Home"
-      className="w-full h-screen bg-gradient-to-br from-[#3e8de3] to-[#5ba0e947]"
+      className="w-full h-screen bg-gradient-to-br from-[#3e8de3] to-[#5ba0e947] rounded-3xl shadow-lg pb-4"
     >
       <div className="max-w-screen-lg mx-auto px-8 flex flex-col justify-center h-full">
         <p className="sm:text-lg text-white">Hi, my name is</p>
