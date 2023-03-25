@@ -16,7 +16,7 @@ export const Navbar = () => {
   let [open, setOpen] = useState(false);
 
   return (
-    <div className="fixed w-full shadow-md top-0 left-0">
+    <div className="fixed w-full shadow-md top-0 left-0 z-50">
       <div className="md:flex items-center justify-between bg-[#04060d] py-4 md:px-10 px-7 text-gray-50">
         {/* logo/name */}
         <div className="uppercase font-bold text-xl cursor-pointer py-2 ">
