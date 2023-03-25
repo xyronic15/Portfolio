@@ -16,7 +16,7 @@ export const About = () => {
       <div className="flex flex-col justify-center items-center w-full h-full mx-auto px-8">
         <div className="max-w-screen-lg  w-full grid sm:grid-cols-3 sm:gap-8">
           <div className="sm:text-right py-4 pl-4 col-span-1">
-            <p className="text-3xl sm:text-4xl font-bold inline border-b-4 border-[#aaabb8]">
+            <p className="text-3xl sm:text-4xl font-bold inline border-b-4 border-[#2e9cca]">
               About
             </p>
           </div>
