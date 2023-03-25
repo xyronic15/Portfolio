@@ -27,7 +27,7 @@ export const Navbar = () => {
         <div>
           <ul className={`md:flex md:items-center ${!open ? 'hidden': 'mt-2'}`}>
             {Links.map((link) => (
-              <li className="text-gray-400 cursor-pointer rounded-md px-3 py-2 hover:bg-[#0f1631] hover:font-medium hover:text-gray-50">
+              <li className="text-gray-400 cursor-pointer rounded-md px-3 py-2 hover:bg-[#191b22] hover:font-medium hover:text-gray-50">
                 <Link to={link.name} smooth={true} duration={500} className="">
                   {link.name}
                 </Link>
