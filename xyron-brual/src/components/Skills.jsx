@@ -10,7 +10,7 @@ export const Skills = () => {
     >
       <div className="flex flex-col justify-center items-center w-full h-full mx-auto px-8">
         <div className="max-w-screen-xl w-full py-4 pl-4">
-          <p className="text-3xl sm:text-4xl font-bold inline border-b-4 border-[#2e9cca]">
+          <p className="text-3xl sm:text-4xl font-bold inline border-b-4 border-[#22272d]">
             Skills
           </p>
         </div>
@@ -31,8 +31,8 @@ const ArrayComp = ({ title, arr }) => {
   return (
     <div>
       <div className="max-w-screen-xl w-full flex flex-col md:flex-row pt-4 pl-4 sm:text-2xl text-xl">
-        <div className="basis-1/5 italic">
-          <span className="text-[#85bbdd]">{title}</span> =
+        <div className="basis-1/5 italic text-[#83c1ff]">
+          <span className="text-white">{title}</span> =
         </div>
         <div className="basis-1/5 italic">
           <span className="text-[#f6c600]">[</span>
@@ -44,7 +44,7 @@ const ArrayComp = ({ title, arr }) => {
           <div className="flex flex-row flex-wrap gap-2">
             {arr.map((item) => (
               <div>
-                <span className="text-[#c08947]">"{item}"</span>,
+                <span className="text-[#85bbdd]">"{item}"</span>,
               </div>
             ))}
           </div>

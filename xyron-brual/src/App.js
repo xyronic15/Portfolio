@@ -4,7 +4,7 @@ import { About, Home, Navbar, Skills } from './components';
 
 function App() {
   return (
-    <div className="App bg-gradient-to-b from-[#25274d] to-[#04060d]">
+    <div className="App bg-[#0d1117]">
       <Navbar />
       <Home />
       <About />

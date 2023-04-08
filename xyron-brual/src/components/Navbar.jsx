@@ -17,7 +17,7 @@ export const Navbar = () => {
 
   return (
     <div className="fixed w-full shadow-md top-0 left-0 z-50">
-      <div className="md:flex items-center justify-between bg-[#04060d] py-4 md:px-10 px-7 text-gray-50">
+      <div className="md:flex items-center justify-between bg-[#010409] py-4 md:px-10 px-7 text-gray-50">
         {/* logo/name */}
         <div className="uppercase font-bold text-xl cursor-pointer py-2 ">
           Xyron Brual
@@ -27,7 +27,7 @@ export const Navbar = () => {
         <div>
           <ul className={`md:flex md:items-center ${!open ? 'hidden': 'mt-2'}`}>
             {Links.map((link) => (
-              <li className="text-gray-400 cursor-pointer rounded-md px-3 py-2 hover:bg-[#191b22] hover:font-medium hover:text-gray-50">
+              <li className="text-gray-400 cursor-pointer rounded-md px-3 py-2 hover:bg-[#191b22] hover:font-medium hover:text-gray-50 hover:border-b-2 border-gray-50">
                 <Link to={link.name} smooth={true} duration={500} className="">
                   {link.name}
                 </Link>
