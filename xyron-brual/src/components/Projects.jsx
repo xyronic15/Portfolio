@@ -1,6 +1,5 @@
 import React from "react";
 import { Window } from "./Window";
-import HorizontalScroll from "react-horizontal-scrolling";
 import { projects } from "../constants";
 
 // const projects = [
@@ -81,12 +80,14 @@ export const Projects = () => {
 // timeline component
 const ProjectTimeline = () => {
   return (
-    <div className="max-w-screen-xl w-full pt-4 overflow-hidden justify-center">
-      <HorizontalScroll>
+    <div className="max-w-screen-xl w-full">
+      <ul className="flex flew-row gap-5 py-4 overflow-y-auto scrollbar scrollbar-thumb-gray-400 scrollbar-thumb-rounded-full scrollbar-h-[2px]">
         {projects.map((project) => (
-          <ProjectCard project={project} />
+          <li>
+            <ProjectCard project={project} />
+          </li>
         ))}
-      </HorizontalScroll>
+      </ul>
     </div>
   );
 };
@@ -94,17 +95,17 @@ const ProjectTimeline = () => {
 // project card comp
 const ProjectCard = ({ project }) => {
   return (
-    <div className="w-full flex justify-center mx-4">
-      <Window>
-        <div className="w-[300px] h-[500px] mt-2 overflow-scroll scrollbar scrollbar-thumb-gray-400 scrollbar-thumb-rounded-full scrollbar-w-[2px]">
-          {/* <img src={project.img} alt={project.title} /> */}
-          {project.title}
-          <br />
-          {project.date}
-          <br />
-          {project.description}
-        </div>
-      </Window>
-    </div>
+    // <div className="w-full flex justify-center mx-4">
+    <Window>
+      <div className="w-[300px] h-[500px] mt-2 overflow-scroll scrollbar scrollbar-thumb-gray-400 scrollbar-thumb-rounded-full scrollbar-w-[2px]">
+        <img src={project.img} alt={project.title} />
+        {project.title}
+        <br />
+        {project.date}
+        <br />
+        {project.description}
+      </div>
+    </Window>
+    // </div>
   );
 };

@@ -23,7 +23,3 @@ code {
     @apply font-[Raleway];
   }
 }
-
-.HorizontalScrollInnerChildren {
-  width: 375px;
-}
