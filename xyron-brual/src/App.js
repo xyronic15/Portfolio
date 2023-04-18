@@ -1,6 +1,6 @@
 // import logo from './logo.svg';
 // import './index.css';
-import { About, Home, Navbar, Skills } from './components';
+import { About, Home, Navbar, Projects, Skills } from './components';
 
 function App() {
   return (
@@ -9,6 +9,7 @@ function App() {
       <Home />
       <About />
       <Skills />
+      <Projects />
     </div>
   );
 }
