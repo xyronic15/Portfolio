@@ -33,59 +33,40 @@ export const technologies = [
   "Windows",
 ];
 
-// dummmy projects, TBC
+// TBC
 export const projects = [
   {
+    title: "Case Study on Video Games: Genre study",
     date: "April 2023",
+    description:
+      "A case study that aims to understand the correlations between video game genres and their popularity. This research makes use of MetaCritic data from 2016.",
+    tech: ["Python", "Pandas", "NumPy", "MatPlotLib"],
+    img: null,
+    kaggle:
+      "https://www.kaggle.com/code/xyronbrual/case-study-on-video-games-genre-study",
+  },
+  {
     title: "Floppy Bird",
-    description: "Consectetur adipiscing elit",
-    img: require("../imgs/projects/floppy_bird.png")
+    date: "April 2023",
+    description:
+      "A flappy bird clone for PC built using Python's PyGame module with score saving using Python's Pandas module.",
+    tech: ["Python", "PyGame", "Pandas"],
+    img: require("../imgs/projects/floppy_bird.png"),
+    github: "https://github.com/xyronic15/Floppy-Bird.git",
   },
   {
-    date: "2019",
-    title: "Project 1",
-    description: "Lorem ipsum dolor sit ametLorem ipsum dolor sit ametLorem ipsum dolor sit ametLorem ipsum dolor sit ametLorem ipsum dolor sit ametLorem ipsum dolor sit ametLorem ipsum dolor sit ametLorem ipsum dolor sit ametLorem ipsum dolor sit ametLorem ipsum dolor sit ametLorem ipsum dolor sit ametLorem ipsum dolor sit ametLorem ipsum dolor sit ametLorem ipsum dolor sit ametLorem ipsum dolor sit ametLorem ipsum dolor sit ametLorem ipsum dolor sit ametLorem ipsum dolor sit ametLorem ipsum dolor sit ametLorem ipsum dolor sit ametLorem ipsum dolor sit ametLorem ipsum dolor sit ametLorem ipsum dolor sit ametLorem ipsum dolor sit ametLorem ipsum dolor sit ametLorem ipsum dolor sit ametLorem ipsum dolor sit ametLorem ipsum dolor sit ametLorem ipsum dolor sit ametLorem ipsum dolor sit amet",
-  },
-  {
-    date: "2021",
-    title: "Project 3",
-    description: "Sed do eiusmod tempor incididunt",
-  },
-  { date: "2022", title: "Project 4", description: "Ut enim ad minim veniam" },
-  {
-    date: "2023",
-    title: "Project 5",
-    description: "Duis aute irure dolor in reprehenderit",
-  },
-  {
-    date: "2024",
-    title: "Project 6",
-    description: "Excepteur sint occaecat cupidatat non proident",
+    title: "Queen's Square Doctor's Employee Manual",
+    date: "Jan 2023 - Mar 2023",
+    description:
+      "A manual documenting the basic tasks and responsibilities of new staff in order to reduce training time as well as provide older staff with information they can go back and refer to.",
+    tech: ["Canva"],
+    img: null,
   },
   // {
-  //   date: "2019",
-  //   title: "Project 1",
-  //   description: "Lorem ipsum dolor sit amet",
-  // },
-  // {
-  //   date: "2020",
-  //   title: "Project 2",
-  //   description: "Consectetur adipiscing elit",
-  // },
-  // {
-  //   date: "2021",
-  //   title: "Project 3",
-  //   description: "Sed do eiusmod tempor incididunt",
-  // },
-  // { date: "2022", title: "Project 4", description: "Ut enim ad minim veniam" },
-  // {
-  //   date: "2023",
-  //   title: "Project 5",
-  //   description: "Duis aute irure dolor in reprehenderit",
-  // },
-  // {
-  //   date: "2024",
-  //   title: "Project 6",
-  //   description: "Excepteur sint occaecat cupidatat non proident",
+  //   title: "Stock Recommendation System",
+  //   date: "Sep 2021 - Mar 2022",
+  //   description: "",
+  //   tech: [""],
+  //   img: null,
   // },
 ];
