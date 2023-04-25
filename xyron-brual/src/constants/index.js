@@ -62,6 +62,38 @@ export const projects = [
     tech: ["Canva"],
     img: null,
   },
+  {
+    title: "Queen's Square Doctor's Employee Manual",
+    date: "Jan 2023 - Mar 2023",
+    description:
+      "A manual documenting the basic tasks and responsibilities of new staff in order to reduce training time as well as provide older staff with information they can go back and refer to.",
+    tech: ["Canva"],
+    img: null,
+  },
+  {
+    title: "Queen's Square Doctor's Employee Manual",
+    date: "Jan 2023 - Mar 2023",
+    description:
+      "A manual documenting the basic tasks and responsibilities of new staff in order to reduce training time as well as provide older staff with information they can go back and refer to.",
+    tech: ["Canva"],
+    img: null,
+  },
+  {
+    title: "Queen's Square Doctor's Employee Manual",
+    date: "Jan 2023 - Mar 2023",
+    description:
+      "A manual documenting the basic tasks and responsibilities of new staff in order to reduce training time as well as provide older staff with information they can go back and refer to.",
+    tech: ["Canva"],
+    img: null,
+  },
+  {
+    title: "Queen's Square Doctor's Employee Manual",
+    date: "Jan 2023 - Mar 2023",
+    description:
+      "A manual documenting the basic tasks and responsibilities of new staff in order to reduce training time as well as provide older staff with information they can go back and refer to.",
+    tech: ["Canva"],
+    img: null,
+  },
   // {
   //   title: "Stock Recommendation System",
   //   date: "Sep 2021 - Mar 2022",

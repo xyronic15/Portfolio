@@ -2,6 +2,7 @@ import React from "react";
 import { Window } from "./Window";
 import { projects } from "../constants";
 import { FaGithub, FaKaggle } from "react-icons/fa";
+import { HorizontalScroll } from "./HorizontalScroll";
 
 export const Projects = () => {
   return (
@@ -25,15 +26,13 @@ export const Projects = () => {
 // timeline component
 const ProjectTimeline = () => {
   return (
-    <div className="max-w-screen-xl w-full">
-      <ul className="flex flew-row gap-5 py-4 overflow-y-auto scrollbar scrollbar-thumb-gray-400 scrollbar-thumb-rounded-full scrollbar-h-[2px]">
-        {projects.map((project) => (
-          <li>
-            <ProjectCard project={project} />
-          </li>
-        ))}
-      </ul>
-    </div>
+    <HorizontalScroll>
+      {projects.map((project) => (
+        <li>
+          <ProjectCard project={project} />
+        </li>
+      ))}
+    </HorizontalScroll>
   );
 };
 
