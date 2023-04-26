@@ -67,7 +67,7 @@ const ProjectCard = ({ project }) => {
             </a>
           ) : null}
           {project.kaggle !== undefined ? (
-            <a href={project.github}>
+            <a href={project.kaggle}>
               <FaKaggle className="hover:animate-bounce bg-[#4abfff] rounded-full p-2 w-12 h-12" />
             </a>
           ) : null}
