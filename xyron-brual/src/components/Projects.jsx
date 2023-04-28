@@ -1,8 +1,8 @@
 import React from "react";
-import { Window } from "./Window";
+import { Window } from "../utils/Window";
 import { projects } from "../constants";
 import { FaGithub, FaKaggle } from "react-icons/fa";
-import { HorizontalScroll } from "./HorizontalScroll";
+import { HorizontalScroll } from "../utils/HorizontalScroll";
 
 export const Projects = () => {
   return (

@@ -1,6 +1,6 @@
 import React from "react";
 import { languages, technologies } from "../constants";
-import { Window } from "./Window";
+import { Window } from "../utils/Window";
 
 export const Skills = () => {
   return (

@@ -1,8 +1,8 @@
 import React from "react";
 import { FaExternalLinkAlt } from "react-icons/fa";
 import { certifications } from "../constants";
-import { HorizontalScroll } from "./HorizontalScroll";
-import { Window } from "./Window";
+import { HorizontalScroll } from "../utils/HorizontalScroll";
+import { Window } from "../utils/Window";
 
 export const Certifications = () => {
   return (
