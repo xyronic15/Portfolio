@@ -103,7 +103,6 @@ export const projects = [
   // },
 ];
 
-// TBC
 export const certifications = [
   {
     name: "Google Data Analytics",
@@ -153,5 +152,45 @@ export const certifications = [
     org: "freeCodeCamp",
     // tech: ["Python", "Pandas", "NumPy", "MatPlotLib"],
     url: "https://freecodecamp.org/certification/fccb4e5b087-b78e-4f03-b818-4887c9042617/scientific-computing-with-python-v7",
+  },
+];
+
+export const experiences = [
+  {
+    title: "Data Analyst/Developer Intern",
+    date: "April 2023",
+    company: "Cognixia",
+    description: [
+      "Acquired proficiency in diverse data manipulation and visualization techniques through training with Cognixia experts",
+      "Demonstrated strong teamwork and project coordination skills by leading multiple collaborative projects, leveraging Git, Python, Object-Oriented Programming, and Visual Studio Code",
+      "Strengthened technical and soft skills, including Agile framework understanding and Database Management Systems, through comprehensive training",
+    ],
+  },
+  {
+    title: "Tutor",
+    date: "February 2023 - Present",
+    company: "ClubZ Tutoring",
+    description: [
+      "Evaluated multiple high school students in STEM subjects",
+      "Facilitated lectures for depending on the current topics of the students' classes",
+      "Advised students on the optimal ways to solve in-class problems",
+      "Coached students in time management and study skills",
+    ],
+  },
+  {
+    title: "Medical Administration",
+    date: "May 2022 - December 2022",
+    company: "Queens Square Doctors",
+    description: [
+      "Facilitated communication between doctors and patients by serving as an intermediary, ensuring proper management of admissions, prescriptions, and medical claims",
+      "Prioritized patient care by efficiently managing phone calls, check-ins, and allocation of patient rooms",
+      "Supported management in coordinating workflow by managing medical staff documentation and equipment, demonstrating excellent organizational and multitasking skills",
+    ],
+  },
+  {
+    title: "Assistant Store Manager/IT Technician",
+    date: "September 2018 - April 2022",
+    company: "Tip-Top Creamery Ltd.",
+    description: [""],
   },
 ];
