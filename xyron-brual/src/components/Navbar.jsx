@@ -9,6 +9,7 @@ export const Navbar = () => {
     { name: "Skills" },
     { name: "Projects" },
     { name: "Certifications" },
+    { name: "Experience" },
     { name: "Contacts" },
   ];
 

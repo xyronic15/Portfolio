@@ -23,3 +23,26 @@ code {
     @apply font-[Raleway];
   }
 }
+
+/* Altering the react-vertical-timeline-component */
+
+.vertical-timeline-element-content p {
+}
+
+.vertical-timeline-element-icon {
+  top: 10px !important;
+  left: 10px !important;
+  width: 20px !important;
+  height: 20px !important;
+  background: white !important;
+}
+
+@media only screen and (min-width: 1170px) {
+  .vertical-timeline-element-icon {
+    width: 30px !important;
+    height: 30px !important;
+    left: 50% !important;
+    top: 15px !important;
+    margin-left: -14.5px !important;
+  }
+}

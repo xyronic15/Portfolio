@@ -7,6 +7,7 @@ import {
   Navbar,
   Projects,
   Skills,
+  Experience,
 } from "./components";
 
 function App() {
@@ -18,6 +19,7 @@ function App() {
       <Skills />
       <Projects />
       <Certifications />
+      <Experience />
     </div>
   );
 }
