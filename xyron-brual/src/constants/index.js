@@ -191,6 +191,12 @@ export const experiences = [
     title: "Assistant Store Manager/IT Technician",
     date: "September 2018 - April 2022",
     company: "Tip-Top Creamery Ltd.",
-    description: [""],
+    description: [
+      "Programmed cash registers, websites, and installed security cameras, effectively supporting the organization's IT infrastructure",
+      "Maintained and troubleshot monetary systems to ensure seamless workflow, demonstrating a keen attention to detail and problem-solving abilities",
+      "Designed and developed the organization's main website to enhance customer engagement and understanding of the services provided",
+      "Managed various aspects of inventory, purchase orders, and deliveries, ensuring smooth operations of the store",
+      "Led the renovation and interior fit-out of the store, showcasing strong project management and leadership skills",
+    ],
   },
 ];
