@@ -42,8 +42,8 @@ const ProjectCard = ({ project }) => {
     <Window>
       <div className="w-[250px] sm:w-[300px] h-[500px] mt-2 overflow-y-scroll scrollbar scrollbar-thumb-gray-400 scrollbar-thumb-rounded-full scrollbar-w-[2px]">
         {project.img !== null ? (
-          <div className="py-2 ">
-            <img src={project.img} alt={project.title} />
+          <div className="flex py-2 justify-center items-center">
+            <img src={project.img} alt={project.title} className="max-h-[300px]"/>
           </div>
         ) : null}
         <p className="text-xl sm:text-2xl font-bold py-1">{project.title}</p>
