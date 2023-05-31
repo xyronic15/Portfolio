@@ -1,16 +1,22 @@
 {
   "files": {
-    "main.css": "/Portfolio/static/css/main.4f54a879.css",
-    "main.js": "/Portfolio/static/js/main.bda662d9.js",
+    "main.css": "/Portfolio/static/css/main.d8f15222.css",
+    "main.js": "/Portfolio/static/js/main.fc28f3b3.js",
     "static/js/787.19508faf.chunk.js": "/Portfolio/static/js/787.19508faf.chunk.js",
+    "static/media/cars_canada.png": "/Portfolio/static/media/cars_canada.66995d609034e7129d55.png",
+    "static/media/great_plateau.png": "/Portfolio/static/media/great_plateau.8d0e03544ef5c93be7c5.png",
+    "static/media/facial_recognition_system.png": "/Portfolio/static/media/facial_recognition_system.4b03c5c4de2359c4e812.png",
+    "static/media/stocks_recommendation-system.png": "/Portfolio/static/media/stocks_recommendation-system.d1d84ad85a8c8a06196a.png",
+    "static/media/endless_battle.png": "/Portfolio/static/media/endless_battle.389c1e234379932e612d.png",
+    "static/media/stocks_r_us.png": "/Portfolio/static/media/stocks_r_us.573801034e0844676cc5.png",
     "static/media/floppy_bird.png": "/Portfolio/static/media/floppy_bird.bba98484dd9eb66bcc82.png",
     "index.html": "/Portfolio/index.html",
-    "main.4f54a879.css.map": "/Portfolio/static/css/main.4f54a879.css.map",
-    "main.bda662d9.js.map": "/Portfolio/static/js/main.bda662d9.js.map",
+    "main.d8f15222.css.map": "/Portfolio/static/css/main.d8f15222.css.map",
+    "main.fc28f3b3.js.map": "/Portfolio/static/js/main.fc28f3b3.js.map",
     "787.19508faf.chunk.js.map": "/Portfolio/static/js/787.19508faf.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.4f54a879.css",
-    "static/js/main.bda662d9.js"
+    "static/css/main.d8f15222.css",
+    "static/js/main.fc28f3b3.js"
   ]
 }
