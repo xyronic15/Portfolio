@@ -36,6 +36,15 @@ export const technologies = [
 // TBC
 export const projects = [
   {
+    title: "Notion Agenda Wallpaper",
+    date: "June 2023",
+    description:
+      "Notion Agenda Wallpaper is a Node.js project that automates the generation of a dynamic agenda as a wallpaper. By utilizing Notion's API, tasks are queried from a designated agenda database on Notion. The project then generates an HTML string based on the retrieved tasks, which is subsequently converted into an image. For convenience, this project can be configured as a Windows service to run periodically in the background, ensuring the wallpaper agenda is updated seamlessly.",
+    tech: ["NodeJS", "JavaScript", "Notion", "HTML", "CSS"],
+    img: require("../imgs/projects/notion_agenda_wallpaper.png"),
+    github: "https://github.com/xyronic15/Notion-Agenda-Wallpaper.git",
+  },
+  {
     title: "Case Study on Video Games: Genre study",
     date: "April 2023",
     description:
