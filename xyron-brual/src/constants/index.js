@@ -36,6 +36,15 @@ export const technologies = [
 // TBC
 export const projects = [
   {
+    title: "LetsCook",
+    date: "June 2023",
+    description:
+      "LetsCook is a cutting-edge web application that combines React, Bootstrap, and the power of the ChatGPT API to provide users with a seamless and interactive cooking experience, generating personalized recipes based on their inputted ingredients.",
+    tech: ["NodeJS", "React", "Bootstrap", "OpenAI"],
+    img: require("../imgs/projects/letscook.jpg"),
+    github: "https://github.com/xyronic15/LetsCook",
+  },
+  {
     title: "Notion Agenda Wallpaper",
     date: "June 2023",
     description:
@@ -179,6 +188,20 @@ export const projects = [
 ];
 
 export const certifications = [
+  {
+    name: "HackBytes Hackathon Certificate",
+    date: "June 2023",
+    org: "HackBytes II",
+    // tech: ["Python", "Pandas", "NumPy", "MatPlotLib"],
+    url: "https://certopus.com/c/428ce914ad3d45308ab677bbcce56724",
+  },
+  {
+    name: "Google IT Automation with Python",
+    date: "May 2023",
+    org: "Google",
+    // tech: ["Python", "Pandas", "NumPy", "MatPlotLib"],
+    url: "https://www.coursera.org/account/accomplishments/specialization/certificate/A65NATPLA3SN",
+  },
   {
     name: "Google Data Analytics",
     date: "February 2023",
