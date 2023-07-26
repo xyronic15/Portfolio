@@ -13,6 +13,7 @@ export const languages = [
   "SQL",
   "Lua",
   "R",
+  "AWS",
 ];
 
 export const technologies = [
@@ -188,6 +189,12 @@ export const projects = [
 ];
 
 export const certifications = [
+  {
+    name: "Devops on AWS",
+    date: "July 2023",
+    org: "Amazon Web Services",
+    url: "https://www.coursera.org/account/accomplishments/specialization/certificate/834E2T3X6DDV",
+  },
   {
     name: "HackBytes Hackathon Certificate",
     date: "June 2023",
