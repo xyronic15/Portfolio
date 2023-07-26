@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Portfolio/static/css/main.d8f15222.css",
-    "main.js": "/Portfolio/static/js/main.eaa23228.js",
+    "main.js": "/Portfolio/static/js/main.3939a628.js",
     "static/js/787.19508faf.chunk.js": "/Portfolio/static/js/787.19508faf.chunk.js",
     "static/media/cars_canada.png": "/Portfolio/static/media/cars_canada.66995d609034e7129d55.png",
     "static/media/notion_agenda_wallpaper.png": "/Portfolio/static/media/notion_agenda_wallpaper.e26a90fe928c506b40c8.png",
@@ -14,11 +14,11 @@
     "static/media/floppy_bird.png": "/Portfolio/static/media/floppy_bird.bba98484dd9eb66bcc82.png",
     "index.html": "/Portfolio/index.html",
     "main.d8f15222.css.map": "/Portfolio/static/css/main.d8f15222.css.map",
-    "main.eaa23228.js.map": "/Portfolio/static/js/main.eaa23228.js.map",
+    "main.3939a628.js.map": "/Portfolio/static/js/main.3939a628.js.map",
     "787.19508faf.chunk.js.map": "/Portfolio/static/js/787.19508faf.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.d8f15222.css",
-    "static/js/main.eaa23228.js"
+    "static/js/main.3939a628.js"
   ]
 }
