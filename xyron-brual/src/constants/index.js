@@ -13,7 +13,6 @@ export const languages = [
   "SQL",
   "Lua",
   "R",
-  "AWS",
 ];
 
 export const technologies = [
@@ -32,6 +31,7 @@ export const technologies = [
   "Microsoft Office",
   "Linux",
   "Windows",
+  "AWS",
 ];
 
 // TBC
