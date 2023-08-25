@@ -37,6 +37,14 @@ export const technologies = [
 // TBC
 export const projects = [
   {
+    title: "Little Lemon",
+    date: "August 2023",
+    description: "Little Lemon is a React project that embodies a virtual Mediterranean restaurant, featuring an intricately styled front page and a table reservation system, all enhanced by TailwindCSS, with dynamic dates and times facilitated by a mock API.",
+    tech: ["React", "NodeJS", "JavaScript", "HTML", "Tailwind CSS"],
+    img: require("../imgs/projects/little_lemon.png"),
+    github: "https://github.com/xyronic15/Little-Lemon",
+  },
+  {
     title: "LetsCook",
     date: "June 2023",
     description:
@@ -171,24 +179,15 @@ export const projects = [
     tech: ["Unity Engine", "Blender"],
     img: require("../imgs/projects/great_plateau.png"),
   },
-  // {
-  //   title: "Queen's Square Doctor's Employee Manual",
-  //   date: "Jan 2023 - Mar 2023",
-  //   description:
-  //     "A manual documenting the basic tasks and responsibilities of new staff in order to reduce training time as well as provide older staff with information they can go back and refer to.",
-  //   tech: ["Canva"],
-  //   img: null,
-  // },
-  // {
-  //   title: "Stock Recommendation System",
-  //   date: "Sep 2021 - Mar 2022",
-  //   description: "",
-  //   tech: [""],
-  //   img: null,
-  // },
 ];
 
 export const certifications = [
+  {
+    name: "Meta Front-End Developer",
+    date: "August 2023",
+    org: "Meta",
+    url: "https://www.coursera.org/account/accomplishments/specialization/certificate/JSWAJHAFWTBW"
+  },
   {
     name: "Devops on AWS",
     date: "July 2023",
