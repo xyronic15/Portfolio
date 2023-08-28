@@ -8,6 +8,7 @@ import {
   Projects,
   Skills,
   Experience,
+  Contact,
 } from "./components";
 
 function App() {
@@ -20,6 +21,7 @@ function App() {
       <Projects />
       <Certifications />
       <Experience />
+      <Contact />
     </div>
   );
 }
