@@ -6,7 +6,7 @@ export const Skills = () => {
   return (
     <div
       name="Skills"
-      className="relative w-full text-white py-20 font-['Consolas']"
+      className="relative w-full text-white py-20"
     >
       <div className="flex flex-col justify-center items-center w-full h-full mx-auto px-8">
         <div className="max-w-screen-xl w-full py-4 pl-4">
@@ -29,7 +29,7 @@ export const Skills = () => {
 
 const ArrayComp = ({ title, arr }) => {
   return (
-    <div>
+    <div className="font-['Consolas']">
       <div className="max-w-screen-xl w-full flex flex-col md:flex-row pt-4 pl-4 sm:text-2xl text-xl">
         <div className="basis-1/5 italic text-[#83c1ff]">
           <span className="text-white">{title}</span> =

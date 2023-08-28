@@ -11,7 +11,7 @@ export const About = () => {
   return (
     <div
       name="About"
-      className="relative w-full text-white py-20 font-['Consolas']"
+      className="relative w-full text-white py-20"
     >
       <div className="flex flex-col justify-center items-center w-full h-full mx-auto px-8">
         <div className="max-w-screen-xl  w-full grid sm:grid-cols-3 sm:gap-8">
