@@ -1,4 +1,9 @@
 import React, { useState } from 'react'
+import { Resend } from 'resend'
+import Email from '../emails/Email'
+
+const resend = new Resend(process.env.REACT_APP_RESEND_API_KEY);
+// console.log(process.env.REACT_APP_RESEND_API_KEY)
 
 export const Contact = () => {
   return (
@@ -101,9 +106,27 @@ const ContactForm = () => {
     setErrors(validationErrors)
   }
 
-  const submitMsg = (e) => {
+  const submitMsg = async (e) => {
     e.preventDefault()
     console.log(msgData)
+
+    try {
+
+      const data = await resend.sendEmail({
+        from: 'onboarding@resend.dev',
+        to: 'xyron.brual@gmail.com',
+        subject: "Portfolio: " + msgData.subject,
+        react: <Email
+          name={msgData.name}
+          email={msgData.email}
+          subject={msgData.subject}
+          message={msgData.message} />
+      })
+
+      console.log(data)
+    } catch (error) {
+      console.error(error);
+    }
   }
 
   return (
