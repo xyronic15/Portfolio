@@ -30,20 +30,20 @@ export const About = () => {
           <LeftSection text="Interests" />
           <MultiSection
             items={[
-              <Item icon={<BsWindowStack />} text="Full Stack Development" />,
-              <Item icon={<BiBrain />} text="Machine Learning" />,
-              <Item icon={<BiScatterChart />} text="Data Analysis" />,
-              <Item icon={<RiSwordFill />} text="Game Development" />,
+              <Item key={'fsdev'} icon={<BsWindowStack />} text="Full Stack Development" />,
+              <Item key={'ml'} icon={<BiBrain />} text="Machine Learning" />,
+              <Item key={'da'} icon={<BiScatterChart />} text="Data Analysis" />,
+              <Item key={'gd'} icon={<RiSwordFill />} text="Game Development" />,
             ]}
           />
 
           <LeftSection text="Hobbies" />
           <MultiSection
             items={[
-              <Item icon={<IoGameController />} text="Gaming" />,
-              <Item icon={<GiCookingPot />} text="Cooking" />,
-              <Item icon={<MdDraw />} text="Drawing" />,
-              <Item icon={<CgGym />} text="Working out" />,
+              <Item key={'gaming'} icon={<IoGameController />} text="Gaming" />,
+              <Item key={'cook'} icon={<GiCookingPot />} text="Cooking" />,
+              <Item key={'draw'} icon={<MdDraw />} text="Drawing" />,
+              <Item key={'wo'} icon={<CgGym />} text="Working out" />,
             ]}
           />
 

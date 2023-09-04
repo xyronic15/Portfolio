@@ -41,9 +41,9 @@ const ArrayComp = ({ title, arr }) => {
                 <div className="basis-1/12"></div>
                 <div className="basis-11/12">
                     <div className="flex flex-row flex-wrap gap-2">
-                        {arr.map((item) => (
-                            <div>
-                                <span className="text-[#85bbdd]">"{item}"</span>,
+                        {arr.map((item, index) => (
+                            <div key={index}>
+                                <span className="text-[#85bbdd]">&quot;{item}&quot;</span>,
                             </div>
                         ))}
                     </div>

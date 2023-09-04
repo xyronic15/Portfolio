@@ -15,7 +15,7 @@ export const Home = () => {
                     Xyron Brual
                 </h1>
                 <h2 className="text-4xl sm:text-6xl font-bold text-white">
-                    I'm a<span className="text-black"> Software Engineer</span>
+                    I&apos;m a<span className="text-black"> Software Engineer</span>
                 </h2>
 
                 <p className="sm:text-lg font-bold text-white">{introText}</p>

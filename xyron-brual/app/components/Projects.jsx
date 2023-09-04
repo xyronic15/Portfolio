@@ -27,8 +27,8 @@ export const Projects = () => {
 const ProjectTimeline = () => {
     return (
         <HorizontalScroll>
-            {projects.map((project) => (
-                <li>
+            {projects.map((project, index) => (
+                <li key={index}>
                     <ProjectCard project={project} />
                 </li>
             ))}
@@ -57,9 +57,9 @@ const ProjectCard = ({ project }) => {
 
                 <div className="flex flex-wrap">
                     <span className="text-[#f6c600]">[</span>
-                    {project.tech.map((tech) => (
-                        <div>
-                            <span className="text-[#85bbdd]">"{tech}"</span>,
+                    {project.tech.map((tech, index) => (
+                        <div key={index}>
+                            <span className="text-[#85bbdd]">&quot;{tech}&quot;</span>,
                         </div>
                     ))}
                     <span className="text-[#f6c600]">]</span>
