@@ -1,4 +1,5 @@
-import React from "react";
+"use client"
+
 import { BiBrain, BiScatterChart } from "react-icons/bi";
 import { BsWindowStack } from "react-icons/bs";
 import { RiSwordFill } from "react-icons/ri";
@@ -9,9 +10,9 @@ import { CgGym } from "react-icons/cg";
 
 export const About = () => {
   return (
-    <div
+    <section
       name="About"
-      className="relative w-full text-white py-20 font-['Consolas']"
+      className="relative w-full text-white py-20"
     >
       <div className="flex flex-col justify-center items-center w-full h-full mx-auto px-8">
         <div className="max-w-screen-xl  w-full grid sm:grid-cols-3 sm:gap-8">
@@ -54,7 +55,7 @@ export const About = () => {
           </div> */}
         </div>
       </div>
-    </div>
+    </section>
   );
 };
 

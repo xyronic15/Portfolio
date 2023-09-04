@@ -41,7 +41,7 @@ export const projects = [
     date: "August 2023",
     description: "Little Lemon is a React project that embodies a virtual Mediterranean restaurant, featuring an intricately styled front page and a table reservation system, all enhanced by TailwindCSS, with dynamic dates and times facilitated by a mock API.",
     tech: ["React", "NodeJS", "JavaScript", "HTML", "Tailwind CSS"],
-    img: require("../imgs/projects/little_lemon.png"),
+    img: "/imgs/projects/little_lemon.png",
     github: "https://github.com/xyronic15/Little-Lemon",
   },
   {
@@ -50,7 +50,7 @@ export const projects = [
     description:
       "LetsCook is a cutting-edge web application that combines React, Bootstrap, and the power of the ChatGPT API to provide users with a seamless and interactive cooking experience, generating personalized recipes based on their inputted ingredients.",
     tech: ["NodeJS", "React", "Bootstrap", "OpenAI"],
-    img: require("../imgs/projects/letscook.jpg"),
+    img: "/imgs/projects/letscook.jpg",
     github: "https://github.com/xyronic15/LetsCook",
   },
   {
@@ -59,7 +59,7 @@ export const projects = [
     description:
       "Notion Agenda Wallpaper is a Node.js project that automates the generation of a dynamic agenda as a wallpaper. By utilizing Notion's API, tasks are queried from a designated agenda database on Notion. The project then generates an HTML string based on the retrieved tasks, which is subsequently converted into an image. For convenience, this project can be configured as a Windows service to run periodically in the background, ensuring the wallpaper agenda is updated seamlessly.",
     tech: ["NodeJS", "JavaScript", "Notion", "HTML", "CSS"],
-    img: require("../imgs/projects/notion_agenda_wallpaper.png"),
+    img: "/imgs/projects/notion_agenda_wallpaper.png",
     github: "https://github.com/xyronic15/Notion-Agenda-Wallpaper.git",
   },
   {
@@ -78,7 +78,7 @@ export const projects = [
     description:
       "A flappy bird clone for PC built using Python's PyGame module with score saving using Python's Pandas module.",
     tech: ["Python", "PyGame", "Pandas"],
-    img: require("../imgs/projects/floppy_bird.png"),
+    img: "/imgs/projects/floppy_bird.png",
     github: "https://github.com/xyronic15/Floppy-Bird.git",
   },
   {
@@ -115,7 +115,7 @@ export const projects = [
       "Bootstrap",
       "Tensorflow",
     ],
-    img: require("../imgs/projects/stocks_recommendation-system.png"),
+    img: "/imgs/projects/stocks_recommendation-system.png",
     github: "https://github.com/xyronic15/Stock-Recommendation-System-Django",
   },
   {
@@ -133,7 +133,7 @@ export const projects = [
     description:
       "Stocks R Us is a Dart/Flutter mobile app with Python/Flask backend, following the MVC architecture. It enables users to track stocks, personalize favorites, and retrieve real-time data from Yahoo! Finance. Stocks R Us offers a comprehensive solution for stock tracking and management on mobile devices.",
     tech: ["Dart", "Python", "Flutter", "Flask"],
-    img: require("../imgs/projects/stocks_r_us.png"),
+    img: "/imgs/projects/stocks_r_us.png",
     github: "https://github.com/xyronic15/StockInfo-Mobile-Application",
   },
   {
@@ -142,7 +142,7 @@ export const projects = [
     description:
       "The Facial Recognition System is a Python-based project that leverages technologies such as OpenCV, face_recognition, and PySimpleGUI to create a highly accurate facial recognition system. With a 99% accuracy rate in identifying 'known' users, the system utilizes reference images and information of individuals to compare against faces in other images and live scans.",
     tech: ["Python", "OpenCV", "PySimpleGUI"],
-    img: require("../imgs/projects/facial_recognition_system.png"),
+    img: "/imgs/projects/facial_recognition_system.png",
     github: "https://github.com/Janahan10/SOFE-3720-AI-Final-Project",
   },
   {
@@ -151,7 +151,7 @@ export const projects = [
     description:
       "Cars Canada is a car rental website project developed for the design and development of a fully functional car rental platform. Cars Canada offers a seamless and convenient online platform for users to rent cars with ease.",
     tech: ["HTML", "CSS", "JavaScript", "PHP", "SQL", "Bootstrap"],
-    img: require("../imgs/projects/cars_canada.png"),
+    img: "/imgs/projects/cars_canada.png",
   },
   {
     title: "K-Means Color Clustering",
@@ -168,7 +168,7 @@ export const projects = [
     description:
       "Endless Battle is a 2D platforming and fighter game developed using the Unity Engine and C#. The project also includes a procedural level generator, ensuring unique platform placements for each new level, and enemies with varying difficulty levels, movement and attack speeds, health, and attack damage. Endless Battle provides an immersive and challenging gaming experience on the PC platform.",
     tech: ["Unity Engine", "C#", "Blender"],
-    img: require("../imgs/projects/endless_battle.png"),
+    img: "/imgs/projects/endless_battle.png",
     github: "https://github.com/xyronic15/Endless-Battle",
   },
   {
@@ -177,7 +177,7 @@ export const projects = [
     description:
       "The Great Plateau project involves the meticulous recreation of a section from the renowned Nintendo game Legend of Zelda: Breath of the Wild. Using various tools and techniques, the project replicates the terrain, textures, and environmental elements, to bring the iconic Great Plateau scene to life in Unity.",
     tech: ["Unity Engine", "Blender"],
-    img: require("../imgs/projects/great_plateau.png"),
+    img: "/imgs/projects/great_plateau.png",
   },
 ];
 
