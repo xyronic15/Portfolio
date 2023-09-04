@@ -43,7 +43,7 @@ export const Email = ({ name, email, subject, message }) => {
     return (
         <Html>
             <Head />
-            <Preview>You updated the password for your Twitch account</Preview>
+            <Preview>You have a message from {name}</Preview>
             <Body style={main}>
                 <Container style={container}>
                     <Section style={logo}>
