@@ -27,7 +27,7 @@ const CertificationTimeline = () => {
     return (
         <HorizontalScroll>
             {certifications.map((certification) => (
-                <li>
+                <li key={certification.name}>
                     <CertificationCard cert={certification} />
                 </li>
             ))}

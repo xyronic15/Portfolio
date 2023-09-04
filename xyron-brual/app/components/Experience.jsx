@@ -69,8 +69,8 @@ const ExperienceCard = ({ key, experience }) => {
                         {experience.date}
                     </p>
                     <ul className="py-1 list-disc list-inside">
-                        {experience.description.map((description) => (
-                            <li className="text-base">{description}</li>
+                        {experience.description.map((description, index) => (
+                            <li className="text-base" key={index}>{description}</li>
                         ))}
                     </ul>
                 </div>

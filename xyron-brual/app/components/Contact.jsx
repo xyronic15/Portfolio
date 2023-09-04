@@ -1,9 +1,6 @@
-import React, { useState } from 'react'
-import { Resend } from 'resend'
-import Email from '../emails/Email'
+"use client"
 
-// const resend = new Resend(process.env.REACT_APP_RESEND_API_KEY);
-// console.log(process.env.REACT_APP_RESEND_API_KEY)
+import React, { useState } from 'react'
 
 export const Contact = () => {
     return (
@@ -110,23 +107,16 @@ const ContactForm = () => {
         e.preventDefault()
         console.log(msgData)
 
-        // try {
+        // TBC
+        const res = await fetch('api/email', {
+            method: 'POST',
+            body: JSON.stringify(msgData),
+            headers: {
+                'Content-Type': 'application/json'
+            }
+        })
 
-        //   const data = await resend.sendEmail({
-        //     from: 'onboarding@resend.dev',
-        //     to: 'xyron.brual@gmail.com',
-        //     subject: "Portfolio: " + msgData.subject,
-        //     react: <Email
-        //       name={msgData.name}
-        //       email={msgData.email}
-        //       subject={msgData.subject}
-        //       message={msgData.message} />
-        //   })
-
-        //   console.log(data)
-        // } catch (error) {
-        //   console.error(error);
-        // }
+        console.log(res.status)
     }
 
     return (
@@ -188,7 +178,7 @@ const ContactForm = () => {
             </Field>
             <button
                 type='submit'
-                className='bg-transparent text-white text-md md:text-lg py-2 px-4 border-2 border-white rounded-md w-fit hover:bg-white hover:text-black ease-in-out duration-500'
+                className='bg-transparent text-white text-md md:text-lg py-2 px-4 border-2 border-white w-fit hover:bg-white hover:text-black ease-in-out duration-500'
             >
                 Send Message
             </button>

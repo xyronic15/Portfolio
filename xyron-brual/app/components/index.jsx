@@ -5,6 +5,7 @@ import { Skills } from "./Skills";
 import { Projects } from "./Projects";
 import { Certifications } from "./Certifications";
 import { Experience } from "./Experience";
+import { Contact } from './Contact'
 
 // Export all the components to the main app
 export {
@@ -15,4 +16,5 @@ export {
     Projects,
     Certifications,
     Experience,
+    Contact
 }
