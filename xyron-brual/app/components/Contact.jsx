@@ -10,9 +10,9 @@ export const Contact = () => {
 
             <div className="flex flex-col justify-center items-center w-full h-full mx-auto px-8">
                 <div className="max-w-screen-xl w-full py-4 pl-4">
-                    <p className="text-3xl sm:text-4xl font-bold inline border-b-4 border-[#22272d]">
+                    <h3 className="text-3xl sm:text-4xl font-bold inline border-b-4 border-[#22272d]">
                         Contact Me
-                    </p>
+                    </h3>
                 </div>
 
                 <div className='grid md:grid-cols-2 gap-10 max-w-screen-xl w-full py-4 pl-4'>

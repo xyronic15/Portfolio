@@ -7,6 +7,7 @@ import { IoGameController } from "react-icons/io5";
 import { GiCookingPot } from "react-icons/gi";
 import { MdDraw } from "react-icons/md";
 import { CgGym } from "react-icons/cg";
+import { HiMenuAlt3 } from "react-icons/hi";
 
 export const About = () => {
   return (
@@ -17,9 +18,9 @@ export const About = () => {
       <div className="flex flex-col justify-center items-center w-full h-full mx-auto px-8">
         <div className="max-w-screen-xl  w-full grid sm:grid-cols-3 sm:gap-8">
           <div className="sm:text-right py-4 pl-4 col-span-1">
-            <p className="text-3xl sm:text-4xl font-bold inline border-b-4 border-[#22272d]">
+            <h3 className="text-3xl sm:text-4xl font-bold inline border-b-4 border-[#22272d]">
               About
-            </p>
+            </h3>
           </div>
 
           <div className="col-span-2"></div>

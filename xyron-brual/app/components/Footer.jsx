@@ -16,6 +16,7 @@ export const Footer = () => {
                 {/* Links and info */}
                 <div className='w-full flex md:flex-row flex-col justify-around pb-10 border-[#22272d] border-b-[1px] gap-4'>
                     <div className='flex flex-col align-top w-1/4'>
+                        <br />
                         <p className='text-md text-gray-400'>
                             @xyron.brual@gmail.com
                         </p>
@@ -50,6 +51,7 @@ export const Footer = () => {
                     </div>
 
                     <div className='flex flex-col align-top w-1/4'>
+                        <br />
                         <a href="/files/Xyron Brual - Full Resume.pdf" className='flex flex-row text-md text-gray-400 hover:text-gray-50 py-1'>
                             <AiFillFileText className='w-6 h-6' /> &nbsp;
                             My Resume

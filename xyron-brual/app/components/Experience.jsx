@@ -14,9 +14,9 @@ export const Experience = () => {
             className="relative w-full text-white py-20">
             <div className="flex flex-col justify-center items-center w-full h-full mx-auto px-8">
                 <div className="max-w-screen-xl w-full py-4 pl-4">
-                    <p className="text-3xl sm:text-4xl font-bold inline border-b-4 border-[#22272d]">
+                    <h3 className="text-3xl sm:text-4xl font-bold inline border-b-4 border-[#22272d]">
                         Experience
-                    </p>
+                    </h3>
                 </div>
 
                 <ExperienceTimeline />
@@ -59,9 +59,9 @@ const ExperienceCard = ({ key, experience }) => {
         >
             <Window>
                 <div className="w-60 md:w-96 mt-2">
-                    <p className="!text-xl sm:!text-2xl !font-bold !py-1 !m-0">
+                    <h4 className="!text-xl sm:!text-2xl !font-bold !py-1 !m-0">
                         {experience.title}
-                    </p>
+                    </h4>
                     <p className="!text-base sm:!text-lg !font-bold !py-1 !m-0">
                         {experience.company}
                     </p>
