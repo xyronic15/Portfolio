@@ -3,6 +3,7 @@
 import React from 'react'
 import { Link } from "react-scroll";
 import { Links, socials } from "../constants"
+import { AiFillFileText } from "react-icons/ai";
 
 export const Footer = () => {
 
@@ -14,7 +15,7 @@ export const Footer = () => {
 
                 {/* Links and info */}
                 <div className='w-full flex md:flex-row flex-col justify-around pb-10 border-[#22272d] border-b-[1px] gap-4'>
-                    <div className='flex flex-col align-top w-1/3'>
+                    <div className='flex flex-col align-top w-1/4'>
                         <p className='text-md text-gray-400'>
                             @xyron.brual@gmail.com
                         </p>
@@ -23,7 +24,7 @@ export const Footer = () => {
                         </p>
                     </div>
 
-                    <div className='flex flex-col align-top w-1/3'>
+                    <div className='flex flex-col align-top w-1/4'>
                         <h5 className='text-md text-gray-50 mb-1'>
                             Jump to
                         </h5>
@@ -36,7 +37,7 @@ export const Footer = () => {
                         ))}
                     </div>
 
-                    <div className='flex flex-col align-top w-1/3'>
+                    <div className='flex flex-col align-top w-1/4'>
                         <h5 className='text-md text-gray-50 mb-1'>
                             Reach out
                         </h5>
@@ -47,6 +48,14 @@ export const Footer = () => {
                             </a>
                         ))}
                     </div>
+
+                    <div className='flex flex-col align-top w-1/4'>
+                        <a href="/files/Xyron Brual - Full Resume.pdf" className='flex flex-row text-md text-gray-400 hover:text-gray-50 py-1'>
+                            <AiFillFileText className='w-6 h-6' /> &nbsp;
+                            My Resume
+                        </a>
+                    </div>
+
                 </div>
 
                 <div className='w-full flex justify-center items-center pt-10'>
