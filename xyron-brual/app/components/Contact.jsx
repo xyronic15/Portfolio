@@ -107,7 +107,6 @@ const ContactForm = () => {
         e.preventDefault()
         console.log(msgData)
 
-        // TBC
         const res = await fetch('api/email', {
             method: 'POST',
             body: JSON.stringify(msgData),
