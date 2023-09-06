@@ -1,3 +1,5 @@
+import { AiFillLinkedin, AiFillGithub } from 'react-icons/ai'
+
 export const Links = [
   { name: "Home" },
   { name: "About" },
@@ -7,6 +9,19 @@ export const Links = [
   { name: "Experience" },
   { name: "Contacts" },
 ];
+
+export const socials = [
+  {
+    name: 'LinkedIn',
+    link: 'https://www.linkedin.com/in/xyronbrual/',
+    icon: <AiFillLinkedin className='w-6 h-6' />
+  },
+  {
+    name: 'Github',
+    link: 'https://github.com/xyronic15/',
+    icon: <AiFillGithub className='w-6 h-6' />
+  },
+]
 
 export const languages = [
   "Python",

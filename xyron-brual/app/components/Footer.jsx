@@ -2,23 +2,9 @@
 
 import React from 'react'
 import { Link } from "react-scroll";
-import { Links } from "../constants"
-import { AiFillLinkedin, AiFillGithub } from 'react-icons/ai'
+import { Links, socials } from "../constants"
 
 export const Footer = () => {
-
-    const socials = [
-        {
-            name: 'LinkedIn',
-            link: 'https://www.linkedin.com/in/xyronbrual/',
-            icon: <AiFillLinkedin className='w-6 h-6' />
-        },
-        {
-            name: 'Github',
-            link: 'https://github.com/xyronic15/',
-            icon: <AiFillGithub className='w-6 h-6' />
-        },
-    ]
 
     return (
         <footer
