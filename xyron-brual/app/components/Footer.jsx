@@ -42,7 +42,7 @@ export const Footer = () => {
                         </h5>
                         {socials.map((social, index) => (
                             <a key={index} className='flex flex-row text-md text-gray-400 hover:text-gray-50 py-1' href={social.link}>
-                                {social.icon} &nbsp;
+                                {social.footerIcon} &nbsp;
                                 {social.name}
                             </a>
                         ))}

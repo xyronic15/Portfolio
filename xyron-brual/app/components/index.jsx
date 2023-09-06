@@ -1,4 +1,5 @@
 import { Navbar } from "./Navbar";
+import { Socials } from "./Socials";
 import { Home } from "./Home";
 import { About } from "./About";
 import { Skills } from "./Skills";
@@ -11,6 +12,7 @@ import { Footer } from "./Footer";
 // Export all the components to the main app
 export {
     Navbar,
+    Socials,
     Home,
     About,
     Skills,
