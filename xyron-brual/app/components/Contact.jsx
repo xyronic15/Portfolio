@@ -4,8 +4,8 @@ import React, { useState } from 'react'
 
 export const Contact = () => {
     return (
-        <div
-            name="Experience"
+        <section
+            name="Contact"
             className="relative w-full text-white py-20">
 
             <div className="flex flex-col justify-center items-center w-full h-full mx-auto px-8">
@@ -33,7 +33,7 @@ export const Contact = () => {
                 </div>
             </div>
 
-        </div>
+        </section>
     )
 }
 

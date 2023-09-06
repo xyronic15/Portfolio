@@ -7,19 +7,21 @@ export const Links = [
   { name: "Projects" },
   { name: "Certifications" },
   { name: "Experience" },
-  { name: "Contacts" },
+  { name: "Contact" },
 ];
 
 export const socials = [
   {
     name: 'LinkedIn',
     link: 'https://www.linkedin.com/in/xyronbrual/',
-    icon: <AiFillLinkedin className='w-6 h-6' />
+    icon: <AiFillLinkedin className='w-8 h-8' />,
+    footerIcon: <AiFillLinkedin className='w-6 h-6' />
   },
   {
     name: 'Github',
     link: 'https://github.com/xyronic15/',
-    icon: <AiFillGithub className='w-6 h-6' />
+    icon: <AiFillGithub className='w-8 h-8' />,
+    footerIcon: <AiFillGithub className='w-6 h-6' />
   },
 ]
 
