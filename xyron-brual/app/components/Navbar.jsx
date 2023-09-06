@@ -3,23 +3,15 @@
 import React, { useState } from "react";
 import { FaBars, FaTimes } from "react-icons/fa";
 import { Link } from "react-scroll";
+import { Links } from "../constants"
 
 export const Navbar = () => {
-    let Links = [
-        { name: "Home" },
-        { name: "About" },
-        { name: "Skills" },
-        { name: "Projects" },
-        { name: "Certifications" },
-        { name: "Experience" },
-        { name: "Contacts" },
-    ];
 
     // open/closed state for mobile users
     let [open, setOpen] = useState(false);
 
     return (
-        <header className="fixed w-full shadow-md top-0 left-0 z-50">
+        <header className="fixed w-full shadow-md top-0 left-0 z-50 border-b-[1px] border-[#22272d]">
             <div className="md:flex items-center justify-between bg-[#010409] py-4 md:px-10 px-7 text-gray-50">
                 {/* logo/name */}
                 <div className="uppercase font-bold text-xl cursor-pointer py-2 ">

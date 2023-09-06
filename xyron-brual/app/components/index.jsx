@@ -6,6 +6,7 @@ import { Projects } from "./Projects";
 import { Certifications } from "./Certifications";
 import { Experience } from "./Experience";
 import { Contact } from './Contact'
+import { Footer } from "./Footer";
 
 // Export all the components to the main app
 export {
@@ -16,5 +17,6 @@ export {
     Projects,
     Certifications,
     Experience,
-    Contact
+    Contact,
+    Footer
 }

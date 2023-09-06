@@ -1,5 +1,5 @@
 import Image from 'next/image'
-import { Navbar, Home, About, Skills, Projects, Certifications, Experience, Contact } from './components'
+import { Navbar, Home, About, Skills, Projects, Certifications, Experience, Contact, Footer } from './components'
 
 export default function App() {
   return (
@@ -16,6 +16,7 @@ export default function App() {
       <Certifications />
       <Experience />
       <Contact />
+      <Footer />
     </main>
   )
 }

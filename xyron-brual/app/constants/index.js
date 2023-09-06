@@ -1,3 +1,13 @@
+export const Links = [
+  { name: "Home" },
+  { name: "About" },
+  { name: "Skills" },
+  { name: "Projects" },
+  { name: "Certifications" },
+  { name: "Experience" },
+  { name: "Contacts" },
+];
+
 export const languages = [
   "Python",
   "HTML",
