@@ -5,7 +5,20 @@ const raleway = Raleway({ subsets: ['latin'] })
 
 export const metadata = {
   title: 'Xyron Brual',
-  description: '',
+  description: 'My name is Xyron Brual. Welcome to my portfolio!',
+  openGraph: {
+    title: 'Xyron Brual',
+    description: 'My name is Xyron Brual. Welcome to my portfolio!',
+    url: 'https://portfolio-xyronic15.vercel.app/',
+    siteName: 'Next.js',
+    images: [
+      {
+        url: '/imgs/og-image.PNG',
+        width: 800,
+        height: 600,
+      },
+    ],
+  },
 }
 
 export default function RootLayout({ children }) {
