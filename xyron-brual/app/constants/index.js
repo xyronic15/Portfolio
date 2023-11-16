@@ -210,6 +210,12 @@ export const projects = [
 
 export const certifications = [
   {
+    name: "Generative AI with Large Language Models",
+    date: "November 2023",
+    org: "DeepLearning.AI",
+    url: "https://www.coursera.org/account/accomplishments/certificate/AET8KCL3KHBY"
+  },
+  {
     name: "Meta Front-End Developer",
     date: "August 2023",
     org: "Meta",
