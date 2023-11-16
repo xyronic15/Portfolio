@@ -2,6 +2,7 @@ import Image from "next/image";
 import { Window } from "./utils/Window";
 import { projects } from "../constants";
 import { FaGithub, FaKaggle } from "react-icons/fa";
+import { BiLinkExternal } from "react-icons/bi";
 import { HorizontalScroll } from "./utils/HorizontalScroll";
 
 export const Projects = () => {
@@ -75,6 +76,11 @@ const ProjectCard = ({ project }) => {
                     {project.kaggle !== undefined ? (
                         <a href={project.kaggle}>
                             <FaKaggle className="hover:animate-bounce bg-[#4abfff] rounded-full p-2 w-12 h-12" />
+                        </a>
+                    ) : null}
+                    {project.link !== undefined ? (
+                        <a href={project.link}>
+                            <BiLinkExternal className="hover:animate-bounce bg-black rounded-full p-2 w-12 h-12" />
                         </a>
                     ) : null}
                 </div>

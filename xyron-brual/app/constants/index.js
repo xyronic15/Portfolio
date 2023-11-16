@@ -70,6 +70,7 @@ export const projects = [
     tech: ["Python", "Django REST", "React", "Bootstrap", "Figma", "Vercel"],
     img: "/imgs/projects/typemaster.png",
     github: "https://github.com/xyronic15/TypeMaster",
+    link: "https://typemaster-seven.vercel.app/"
   },
   {
     title: "Little Lemon",
@@ -78,6 +79,7 @@ export const projects = [
     tech: ["React", "NodeJS", "JavaScript", "HTML", "Tailwind CSS"],
     img: "/imgs/projects/little_lemon.png",
     github: "https://github.com/xyronic15/Little-Lemon",
+    link: "https://xyronic15.github.io/Little-Lemon/"
   },
   {
     title: "LetsCook",
