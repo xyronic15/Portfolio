@@ -64,6 +64,14 @@ export const technologies = [
 // TBC
 export const projects = [
   {
+    title: "TypeMaster",
+    date: "October 2023",
+    description: "TypeMaster is a typing test service crafted with Python, Django REST, React, and Bootstrap. It assesses typing speed and accuracy through provided quotes, offering users account functionality for progress tracking. The interface, designed in Figma, is brought to life with React and Bootstrap. The backend, built on Django REST, utilizes AWS EC2 for scalability and availability. TypeMaster is a streamlined and user-friendly solution for those seeking to improve their typing skills.",
+    tech: ["Python", "Django REST", "React", "Bootstrap", "Figma", "Vercel"],
+    img: "/imgs/projects/typemaster.png",
+    github: "https://github.com/xyronic15/TypeMaster",
+  },
+  {
     title: "Little Lemon",
     date: "August 2023",
     description: "Little Lemon is a React project that embodies a virtual Mediterranean restaurant, featuring an intricately styled front page and a table reservation system, all enhanced by TailwindCSS, with dynamic dates and times facilitated by a mock API.",
