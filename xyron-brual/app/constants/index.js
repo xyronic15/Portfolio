@@ -64,6 +64,14 @@ export const technologies = [
 // TBC
 export const projects = [
   {
+    title: "Queen Square Doctors Website",
+    date: "July 2024",
+    description: "Developed and published a comprehensive website for Queen Square Doctors in Brampton using Wix. The website serves as an informational hub, offering detailed insights into their programs and services, policies, newsletters, and contact information. Additionally, it features an easy-to-use appointment booking system, streamlining the process for patients and enhancing overall accessibility and convenience.",
+    tech: ["Python", "Django REST", "React", "Bootstrap", "Figma", "Vercel"],
+    img: "/imgs/projects/queen_square_doctors_wix.png",
+    link: "https://drxbrual.wixsite.com/queen-square-doctors"
+  },
+  {
     title: "TypeMaster",
     date: "October 2023",
     description: "TypeMaster is a typing test service crafted with Python, Django REST, React, and Bootstrap. It assesses typing speed and accuracy through provided quotes, offering users account functionality for progress tracking. The interface, designed in Figma, is brought to life with React and Bootstrap. The backend, built on Django REST, utilizes AWS EC2 for scalability and availability. TypeMaster is a streamlined and user-friendly solution for those seeking to improve their typing skills.",
@@ -304,6 +312,17 @@ export const certifications = [
 
 export const experiences = [
   {
+    title: "Backend Developer",
+    date: "April 2024 - Present",
+    company: "musQueteer",
+    description: [
+      "Developed and maintained backend systems using Ruby on Rails, ensuring high performance and reliability by implementing efficient coding practices and thorough testing",
+      "Managed databases, including PostgreSQL and MySQL, by seeding databases for consistent data in development and testing environments, and optimizing queries for enhanced performance",
+      "Refactored existing code to enhance readability, efficiency, and maintainability, simplifying complex structures and reducing technical debt",
+      "Managed Rails jobs to synchronize Salesforce databases with clients' local databases, ensuring data integrity and consistency through automated processes and regular audits"
+    ],
+  },
+  {
     title: "Data Analyst/Developer Intern",
     date: "April 2023",
     company: "Cognixia",
@@ -315,7 +334,7 @@ export const experiences = [
   },
   {
     title: "Tutor",
-    date: "February 2023 - Present",
+    date: "February 2023 - March 2024",
     company: "ClubZ Tutoring",
     description: [
       "Evaluated multiple high school students in STEM subjects",

@@ -6,7 +6,7 @@ import { AiFillFileText, AiOutlineArrowRight } from "react-icons/ai";
 
 export const Home = () => {
     const introText =
-        "I am a highly motivated and results-driven new graduate with a Bachelors in Software Engineering. With a strong passion for web development, machine learning and data analysis I thrive in fast-paced and challenging environments, constantly seeking new opportunities to learn and grow.";
+        "I am a highly motivated and results-driven graduate with a Bachelors in Software Engineering. With a strong passion for web development, machine learning and data analysis I thrive in fast-paced and challenging environments, constantly seeking new opportunities to learn and grow.";
     return (
         <section
             name="Home"
@@ -37,7 +37,7 @@ export const Home = () => {
                         href="/files/Xyron Brual - Full Resume.pdf"
                         className='flex flex-row bg-white text-black sm:text-md md:text-lg py-2 px-4 border-2 border-white w-fit hover:bg-transparent hover:text-white ease-in-out duration-500'
                     >
-                        <AiFillFileText className="h-full" />&nbsp;My Resume
+                        <AiFillFileText className="h-full" />&nbsp;My CV
                     </a>
                 </div>
             </div>
